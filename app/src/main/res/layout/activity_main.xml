@@ -10,7 +10,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/changeButton" tools:text="Button"/>
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/changeButton" tools:text="Go"/>
     <TextView
             android:text="最初の画面"
             android:layout_width="wrap_content"
