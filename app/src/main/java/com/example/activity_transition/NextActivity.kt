@@ -12,6 +12,7 @@ class NextActivity : AppCompatActivity() {
 
         //元の画面に遷移するための処理
         returnButton.setOnClickListener {
+            //現在のアクティビティを終了する
             finish()
         }
     }
