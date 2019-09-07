@@ -10,6 +10,7 @@ class NextActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_next)
 
+        //元の画面に遷移するための処理
         returnButton.setOnClickListener {
             finish()
         }

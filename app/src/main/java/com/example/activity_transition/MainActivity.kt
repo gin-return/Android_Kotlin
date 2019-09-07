@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
 
         //MainActivityからNextActivityに遷移するための処理
         changeButton.setOnClickListener {
+            //Intentクラスのインスタンスを生成
             val intent = Intent(this,NextActivity::class.java)
+            //アクティビティを起動する
             startActivity(intent)
         }
 
